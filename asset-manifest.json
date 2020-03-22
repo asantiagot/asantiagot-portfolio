@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/asantiagot-portfolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "/asantiagot-portfolio/static/js/main.cbdd9cc5.chunk.js",
+    "main.js.map": "/asantiagot-portfolio/static/js/main.cbdd9cc5.chunk.js.map",
+    "runtime-main.js": "/asantiagot-portfolio/static/js/runtime-main.8e0f0f5f.js",
+    "runtime-main.js.map": "/asantiagot-portfolio/static/js/runtime-main.8e0f0f5f.js.map",
+    "static/js/2.fcda901d.chunk.js": "/asantiagot-portfolio/static/js/2.fcda901d.chunk.js",
+    "static/js/2.fcda901d.chunk.js.map": "/asantiagot-portfolio/static/js/2.fcda901d.chunk.js.map",
+    "index.html": "/asantiagot-portfolio/index.html",
+    "precache-manifest.d3309d1b8bfcedd341e8f631a66d85a2.js": "/asantiagot-portfolio/precache-manifest.d3309d1b8bfcedd341e8f631a66d85a2.js",
+    "service-worker.js": "/asantiagot-portfolio/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/asantiagot-portfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.fcda901d.chunk.js.LICENSE.txt": "/asantiagot-portfolio/static/js/2.fcda901d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/asantiagot-portfolio/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e0f0f5f.js",
+    "static/js/2.fcda901d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.cbdd9cc5.chunk.js"
+  ]
+}
