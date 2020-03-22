@@ -11,9 +11,9 @@ html {
 }
 
 body {
-  width: 80%;
+  /* width: 80%; */
   /* min-width: 800px; */
-  margin: 5em;
+  margin: 1em;
   justify-content: center;
   align-items: center;
   /* display: flex; */
@@ -27,28 +27,29 @@ body {
 
 /* || TYPOGRAPHY */
 h1 {
-  font-size: 5em;
+  /* font-size: 5em; */
+  font-size: 3em;
   font-family: 'Montserrat';
   /* font-weight: normal; */
   margin: 0 auto;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Raleway';
   font-weight: lighter;
   margin: 0 auto;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1em;
   font-weight: lighter;
 } */
 
 /* || NAVIGATION BAR */
 
 nav {
-  height: 50px;
+  /* height: 50px; */
   flex: 100%;
   display: flex;
 }
@@ -81,14 +82,17 @@ nav a:visited {
 
 /* MAIN */
 main {
-  margin-top: 5em;
+  /* margin-top: 5em; */
+  display: grid;
+  grid-template-rows: 15em repeat(1, 1fr);
+  row-gap: 2em;
 }
 /* CONTACT */
 
 .contact {
   display: flex;
-  margin-top: 8em;
-  margin-bottom: 8em;
+  /* margin-top: 8em; */
+  /* margin-bottom: 8em; */
 }
 
 .contact .image {
@@ -133,4 +137,21 @@ main {
 .role {
   margin-top: 0.3em;
   margin-bottom: 0.3em;
+}
+
+/*
+Media queries
+*/
+@media screen and (min-width: 40em) {
+  h1 {
+    font-size: 5em;
+  }
+
+  h2 {
+    font-size: 4em;
+  }
+
+  h3 {
+    font-size: 3em;
+  }
 }

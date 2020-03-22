@@ -132,7 +132,7 @@ function Trajectory(props) {
 
 function Main(props) {
   return(
-    <main>
+    <main className="main">
       <Contact contact={props.content.contact} accounts={props.content.accounts}/>
       {/* <PortfolioShowcase/> */}
       <Trajectory trajectory={props.content.trajectory}/>
