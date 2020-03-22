@@ -1,13 +1,136 @@
-body {
+/* || GENERAL */
+html, body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  background-color: #242423;
+  color: aliceblue;
+}
+
+body {
+  width: 80%;
+  /* min-width: 800px; */
+  margin: 5em;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+}
+
+::selection {
+  color: white;
+  background: #FF01f3;
+  
+}
+
+/* || TYPOGRAPHY */
+h1 {
+  font-size: 5em;
+  font-family: 'Montserrat';
+  /* font-weight: normal; */
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: 'Raleway';
+  font-weight: lighter;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: lighter;
+} */
+
+/* || NAVIGATION BAR */
+
+nav {
+  height: 50px;
+  flex: 100%;
+  display: flex;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  line-height: 1.7;
+  text-transform: uppercase;
+  text-decoration: none;  
+}
+
+nav a:visited {
+  color: white;
+}
+
+/* MAIN */
+main {
+  margin-top: 5em;
+}
+/* CONTACT */
+
+.contact {
+  display: flex;
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.contact .image {
+  margin-left: 5em;
+}
+
+.accountBar {
+  list-style-type: none;
+  display: flex;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.accountBar a {
+  font-size: 2em;
+  color: white;
+  padding: 0 0.2em;
+}
+
+.accountBar a:first-child {
+  padding-left: 0;
+}
+
+.accountBar a:last-child {
+  padding-right: 0;
+}
+
+.accountBar a:hover {
+  color: #FF01f3;
+}
+
+.trajectoryHeading {
+  display: flex;
+  margin-bottom: 0.1em;
+}
+
+.company, .trajectoryHeading h3 {
+  margin-right: 0.3em;
+  margin-bottom: 0.1em;
+}
+
+.role {
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
 }
