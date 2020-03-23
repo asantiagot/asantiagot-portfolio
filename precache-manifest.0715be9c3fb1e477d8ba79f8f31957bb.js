@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f7daf84beb561c3e8d85e9fffc4dbf8f",
+    "revision": "8d9e05b3a40a7b3b0e435a626d230615",
     "url": "/asantiagot-portfolio/index.html"
   },
   {
-    "revision": "ba0ed681d2d211429a6a",
+    "revision": "dc98bee477b1442d9cf7",
     "url": "/asantiagot-portfolio/static/css/main.55f8b329.chunk.css"
   },
   {
-    "revision": "da534b470c1a0b0fa861",
-    "url": "/asantiagot-portfolio/static/js/2.9b155b7d.chunk.js"
+    "revision": "f3fced75c33f606c3518",
+    "url": "/asantiagot-portfolio/static/js/2.c0042410.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/asantiagot-portfolio/static/js/2.9b155b7d.chunk.js.LICENSE.txt"
+    "url": "/asantiagot-portfolio/static/js/2.c0042410.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ba0ed681d2d211429a6a",
-    "url": "/asantiagot-portfolio/static/js/main.c89b1430.chunk.js"
+    "revision": "dc98bee477b1442d9cf7",
+    "url": "/asantiagot-portfolio/static/js/main.280cd20b.chunk.js"
   },
   {
     "revision": "d366abebee4109971b2f",
