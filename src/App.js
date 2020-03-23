@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 // import {hot} from "react-hot-loader";
 import content from "./content";
+import ThemeContext, { ThemeProvider } from "./context/ThemeContext";
 
 function NavigationItem(props) {
   return (
@@ -73,6 +74,24 @@ function ContactImage(props) {
   );
 }
 
+function ThemeSwitcher(props) {
+  const context = useContext(ThemeContext);
+  const switchTheme = () => {
+    context.toggleDark();
+  }
+  
+  return (context.dark ? 
+    <button id="themeSwitcher" onClick={switchTheme}>🌞</button> 
+    : 
+    <button id="themeSwitcher" onClick={switchTheme}>🌚</button>
+  );
+
+  // const button = context.dark ? <button id="themeSwitcher" onClick={switchTheme}>🌞</button> : <button id="themeSwitcher" onClick={switchTheme}>🌚</button>;  
+  // return button;
+
+  // return <h1>HI!</h1>;
+}
+
 function Contact(props) {
   return (
     <section className="contact">
@@ -130,13 +149,25 @@ function Trajectory(props) {
   );
 }
 
+function NavigationHeader(props) {
+  return (
+    <div className="navigationHeader">
+      <Contact contact={props.contact} accounts={props.accounts}/>
+      <ThemeSwitcher/>
+    </div>
+  )
+}
+
 function Main(props) {
   return(
+    // <ThemeProvider>    Commenting since at this moment we don't need to provide the Context from this level
     <main className="main">
-      <Contact contact={props.content.contact} accounts={props.content.accounts}/>
+      <NavigationHeader contact={props.content.contact} accounts={props.content.accounts}/>
+      {/* <Contact contact={props.content.contact} accounts={props.content.accounts}/> */}
       {/* <PortfolioShowcase/> */}
       <Trajectory trajectory={props.content.trajectory}/>
     </main>
+    // </ThemeProvider>
   );
 }
 
@@ -144,10 +175,12 @@ function Portfolio() {
 
   let categories = Object.keys(content);
   return (
-    <React.Fragment>
-      {/* <NavigationBar categories={categories}/> */}
-      <Main content={content}/>
-    </React.Fragment>
+    // <React.Fragment>
+      // {/* <NavigationBar categories={categories}/> */}
+      <ThemeProvider>
+        <Main content={content}/>
+      </ThemeProvider>
+    // </React.Fragment>
   );
 }
 
