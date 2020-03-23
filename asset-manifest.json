@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/asantiagot-portfolio/static/css/main.55f8b329.chunk.css",
-    "main.js": "/asantiagot-portfolio/static/js/main.2504580c.chunk.js",
-    "main.js.map": "/asantiagot-portfolio/static/js/main.2504580c.chunk.js.map",
+    "main.js": "/asantiagot-portfolio/static/js/main.65d56cf8.chunk.js",
+    "main.js.map": "/asantiagot-portfolio/static/js/main.65d56cf8.chunk.js.map",
     "runtime-main.js": "/asantiagot-portfolio/static/js/runtime-main.8e0f0f5f.js",
     "runtime-main.js.map": "/asantiagot-portfolio/static/js/runtime-main.8e0f0f5f.js.map",
     "static/js/2.c0042410.chunk.js": "/asantiagot-portfolio/static/js/2.c0042410.chunk.js",
     "static/js/2.c0042410.chunk.js.map": "/asantiagot-portfolio/static/js/2.c0042410.chunk.js.map",
     "index.html": "/asantiagot-portfolio/index.html",
-    "precache-manifest.e3e18d027c1bafb8fc53035d2f9a56e3.js": "/asantiagot-portfolio/precache-manifest.e3e18d027c1bafb8fc53035d2f9a56e3.js",
+    "precache-manifest.054b1ad371930da4ee47069a4cbeea0e.js": "/asantiagot-portfolio/precache-manifest.054b1ad371930da4ee47069a4cbeea0e.js",
     "service-worker.js": "/asantiagot-portfolio/service-worker.js",
     "static/css/main.55f8b329.chunk.css.map": "/asantiagot-portfolio/static/css/main.55f8b329.chunk.css.map",
     "static/js/2.c0042410.chunk.js.LICENSE.txt": "/asantiagot-portfolio/static/js/2.c0042410.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8e0f0f5f.js",
     "static/js/2.c0042410.chunk.js",
     "static/css/main.55f8b329.chunk.css",
-    "static/js/main.2504580c.chunk.js"
+    "static/js/main.65d56cf8.chunk.js"
   ]
 }
